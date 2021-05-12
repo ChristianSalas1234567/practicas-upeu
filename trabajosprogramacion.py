@@ -129,13 +129,13 @@ def asignaciondeBecas():
   #proceso
   if edad>18:
     if nota>=9:print("tienes una beca de $2000")
-    if nota<9>=7.5:print("tienes una beca de $1000")
-    if nota<7.5>=5.0:("tienes una beca de $500")
+    if nota<9 or nota>=7.5:print("tienes una beca de $1000")
+    if nota<7.5 or nota>=5.0:print("tienes una beca de $500")
     if nota<5.0:print("estudie mas para el proximos siclo escolar")
   elif edad<=18:
     if nota>=9:print("tienes una beca de $3000")
-    if nota<9>=8:print("tienes una beca de $2000")
-    if nota<8>=6:print("tienes una beca de $100")
+    if nota<9 or nota>=8:print("tienes una beca de $2000")
+    if nota<8 or nota>=6:print("tienes una beca de $100")
     if nota<6:print("estudie mas para el proximos siclo escolar")
 #asignaciondeBecas()
 
